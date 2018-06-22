@@ -1,6 +1,5 @@
 const http = require('http');
 const {req_processing} = require('./lib/request_utils.js');
-const {lib} = require('./lib/data');
 
 const server = http.createServer(req_processing);
 
